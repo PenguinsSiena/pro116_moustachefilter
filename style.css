@@ -1,0 +1,37 @@
+h3{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    border-style:double;
+    border-width: 10px;
+    background-color: rgb(160, 222, 182);
+    border-color: rgb(40, 130, 97);
+    width: 400px;
+    border-radius: 7px;
+    color: rgb(7, 42, 24);
+}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(252, 255, 175);
+    font-size: 16px;
+    border-color: black;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+}
+button:hover{
+    background-color: rgb(255, 187, 119);
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 4px 4px 40px rgb(255, 196, 0);}
+    to {box-shadow: 4px 4px 40px rgb(32, 255, 106);}
+}
